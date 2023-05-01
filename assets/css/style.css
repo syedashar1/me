@@ -1896,8 +1896,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .minee li {
   list-style: disc !important;
-  line-height: 3;
   color: var(--light-gray);
+  margin-bottom: 20px;
 }
 
 .desktop{
