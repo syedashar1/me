@@ -1919,3 +1919,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 .jww{
   color: #fafafa !important;
 }
+
+.mobilecover{
+  height: 540px !important;
+}
+
+.mobilecover figure{
+  height: 460px !important;
+}
