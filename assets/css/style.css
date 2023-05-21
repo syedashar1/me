@@ -945,6 +945,16 @@ main {
   margin-bottom: 10px;
 }
 
+.comrades {
+  grid-template-columns: 1fr 1fr;
+}
+
+.comrades figure{
+  height: 150px !important;
+  width: 150px !important;
+  border-radius: 50% !important;
+}
+
 .project-item { display: none; }
 
 .project-item.active {
@@ -1632,6 +1642,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* portfolio and blog grid */
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
+  .comrades { grid-template-columns: 1fr 1fr 1fr; }
 
 
 
@@ -1752,6 +1763,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
+
+  .comrades { grid-template-columns: repeat(4, 1fr); }
 
 
 
