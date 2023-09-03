@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="4 years of work experience in Javascript Frameworks and Typescript. 2-years as Blockchain dev. Worked for WestPac (Aus), Digitexa (Turk), DropMagnet (UK). 500+ Github followers."/>
+  <meta name="description" content="5 years of work experience in Javascript Frameworks and Typescript. 2-years as Blockchain dev. Worked for WestPac (Aus), Digitexa (Turk), DropMagnet (UK). 550+ Github followers."/>
 
   <title>Syed Ashar Saghir - Portfolio 2023</title>
 
@@ -27,7 +27,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="body">
 
   <!--
     - #MAIN
@@ -44,7 +44,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box" style="overflow: hidden;" >
-          <img src="./assets/images/me.jpg" alt="Syed Ashar Saghir" width="80">
+          <div class="img me-ashar"></div>
         </figure>
 
         <div class="info-content">
@@ -240,7 +240,7 @@
 
         <section class="about-text">
           <p>
-            Hi, I'm a Full-stack technologist with 4 years of work experience in Javascript Frameworks and Typescript. 2 years as a Blockchain Dev.
+            Hi, I'm a Full-stack technologist with 5 years of work experience in Javascript Frameworks and Typescript. 2 years as a Blockchain Dev.
           </p>
 
           <p>
@@ -532,7 +532,7 @@ Thank you very much Ashar for all the hard work! I wish you all the best in your
               </a>
             </li> <li class="clients-item">
               <a href="#">
-                <img src="https://camo.githubusercontent.com/efb6bf87c512cb50ebedea1411d6ee2dd64448b3d400d4cddb3373eddf6afc25/68747470733a2f2f696d616765732e6374666173736574732e6e65742f6862336964366167347261712f364e63584c3066546c5358523974564c31344c594a2f63366132613364656134346362663436383236636436643535393662353739372f6170706c652d746f7563682d69636f6e2e706e67" alt="nextjs" alt="client logo">
+                <img src="https://d2nir1j4sou8ez.cloudfront.net/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png" alt="nextjs" alt="client logo">
               </a>
             </li> <li class="clients-item">
               <a href="#">
@@ -768,7 +768,7 @@ Thank you very much Ashar for all the hard work! I wish you all the best in your
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="best project">
-              <a href="https://dropmagnet-1.web.app/" target="_blank">
+              <a href="https://dropmagnet.com/" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -786,7 +786,7 @@ Thank you very much Ashar for all the hard work! I wish you all the best in your
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web">
-              <a href="https://watchmoviekey.com/" target="_blank" >
+              <a href="https://moviekey.com/" target="_blank" >
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -1155,6 +1155,37 @@ Thank you very much Ashar for all the hard work! I wish you all the best in your
 
 
 
+  <div id="page">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
+      <main role="main" class="inner cover">
+
+        <form style="width: 80%; margin: 0 auto;">
+          <div class="form-row" style="opacity: 0;">
+            <div class="form-group col-sm-6">
+              <label for="noiseInput" class="form-label">Noise Coef</label>
+              <input type="range" min="1" max="1" class="custom-range" id="noiseInput">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="heightInput" class="form-label">Height Coef</label>
+              <input type="range" min="1" max="1" class="custom-range" id="heightInput">
+            </div>
+          </div>
+        </form>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+      </footer>
+    </div>
+  </div>
+
+  <canvas id="background"></canvas>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.2/chroma.min.js"></script>
+  <script src="https://unpkg.com/simplex-noise@1.0.0/simplex-noise.js"></script>    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.138.3/three.js" integrity="sha512-7hOqoQidSe9Dk1x2rS3c4VgAefQoEK+7Mta/0Ow02LWqWzh+llfFnqDVEi4KOU8YQXxBOTIG3SVuUTfUrU5cRg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+  <script src="./index.js"></script>
 
 
 
