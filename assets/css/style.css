@@ -1339,7 +1339,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   main {
     margin-top: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
   }
 
 
@@ -1705,7 +1705,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * MAIN 
    */
 
-  main { margin-bottom: 110px; }
+  main { margin-bottom: 145px; }
 
   .main-content {
     position: relative;
