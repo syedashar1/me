@@ -55,6 +55,18 @@ function App(conf) {
     initScene();
     initGui();
     animate();
+
+    const links = document.querySelectorAll('a.desktop-only');
+
+    links.forEach(link => {
+      link.addEventListener('click', function(event) {
+        // Check if the screen width is less than 500px
+        if (window.innerWidth < 500) {
+          event.preventDefault(); // Prevent the default action (navigating to href)
+          alert('This demo is only avaliable for Desktop, kindly explore others 😊'); // Show the alert
+        }
+      });
+    });
   }
 
   function initGui() {
