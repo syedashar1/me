@@ -2086,3 +2086,9 @@ svg {
 }
 
 .service-item span{ display: inline; }
+
+
+.modal-content {
+  background-color: transparent !important;
+  border: 0px !important;
+}
